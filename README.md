@@ -131,7 +131,7 @@ Thành phần của mạng SDN gồm:
 - Bước 8: Kiểm tra địa chỉ ip của máy ảo Mininet bằng lệnh: 
   
  ```
- ip addr
+  ip addr
  ```
 
 
@@ -140,7 +140,9 @@ Thành phần của mạng SDN gồm:
 - Bước 10: Ta chọn tab <b>Section</b> sau đó chọn <b>New section</b>.
 Ngoài ra, có thể thực hiện tổ hợp phím 
 
-	```Ctl + Shif + N```
+	```
+	Ctl + Shif + N
+	```
 
   - Cửa sổ mới hiện ra sau thao tác trên, chọn tab <b>SSH</b>.
 
@@ -155,17 +157,23 @@ Ngoài ra, có thể thực hiện tổ hợp phím
 
 - Bước 12: Sau khi chọn `OK`, ta sẽ có giao diện để nhập user và mật khẩu của máy chủ, tiến hành nhập mật khẩu:
   
-   ```mininet```
+```
+mininet
+```
 
 <h3><b>2.2 Các bước tạo topo mạng</b></h3>
 
 - Bước 1: Tạo file trống chứa mã python tạo ra mô hình SDN bằng lệnh sau:
 
-``` touch topo3s4h.py ```
+``` 
+touch topo3s4h.py
+```
 
 - Bước 2: Để soạn mã trong file topo3s4h.py ta sử dụng lệnh `vi`
 
-` vi topo3s4h.py `
+```
+vi topo3s4h.py 
+```
 
 - Bước 3: Dùng lệnh `i` để vào chế độ `Insert` và tiến hành soạn mã.
   
