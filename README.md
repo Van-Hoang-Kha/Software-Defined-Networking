@@ -2,7 +2,7 @@
 
 <h2><b>I. Giới thiệu chung</b><h2>
 
-<h3><b>1.1 Mininet</b> <h3>
+<h3><b>1.1 Mininet</b></h3>
 
 - <b>Mininet</b> là một công cụ giả lập mạng, bao gồm tập hợp các hosts đầu cuối, các switches, routers và các liên kết trên một <b>Linux kernel</b>. 
 
