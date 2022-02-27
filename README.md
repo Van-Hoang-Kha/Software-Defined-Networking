@@ -93,7 +93,7 @@
 
 	![OpenDaylight SDN Controller!](./images/4.png "OpenDaylight SDN Controller")
 
-<h2><b>2. Xây dựng mạng SDN đơn giản</b></h2>
+<h2><b>II. Xây dựng mạng SDN đơn giản</b></h2>
 
 Thành phần của mạng SDN gồm:
 
