@@ -140,9 +140,9 @@ Thành phần của mạng SDN gồm:
 - Bước 10: Ta chọn tab <b>Section</b> sau đó chọn <b>New section</b>.
 Ngoài ra, có thể thực hiện tổ hợp phím 
 
-	```
-	Ctl + Shif + N
-	```
+```
+Ctl + Shif + N
+```
 
   - Cửa sổ mới hiện ra sau thao tác trên, chọn tab <b>SSH</b>.
 
@@ -268,7 +268,7 @@ h1 ping -c1 h3
 - Sau khi ping ta thấy chưa có kết nối giữa các host vì trong bảng luồng không có một mục luồng nào cho các kết nối này.
 
 
-- Bước 3: Tạo các kết nối này ta dùng trình tiện ích `ovs-ofctl` để tạo các mục luồng tương ứng trong bảng luồng. Sữ dụng lệnh: 
+- Bước 3: Tạo các kết nối này ta dùng trình tiện ích `ovs-ofctl` để tạo các mục luồng tương ứng trong bảng luồng. Sử dụng lệnh: 
 
 ```
 sh ovs-ofctl add-flow s1 in_port=1,actions=output:normal
