@@ -30,7 +30,7 @@
 - Các bộ điều khiển tương tác với các thiết bị mạng vật lý thông qua một giao thức chuẩn OpenFlow. Kiến trúc của SDN gồm 3 lớp riêng biệt: lớp ứng dụng, lớp điều khiển, và lớp cơ sở hạ tầng (lớp chuyển tiếp).
 
 
-	![SDN!](./images/1.png "SDN")
+![SDN!](./images/1.png "SDN")
 
 <h3><b>1.3 Kiến trúc SDN</b></h3>
 
@@ -48,7 +48,7 @@
 
 - Các quyết định về các luồng traffic sẽ được quyết định tập trung tại OpenFlow Controller giúp đơn giản trong việc quản trị cấu hình trong toàn hệ thống. 
 
-	![OpenFlow!](./images/2.jpg "OpenFlow")
+![OpenFlow!](./images/2.jpg "OpenFlow")
 
 <h3><b>1.5 Các thành phần của OpenFlow</b></h3>
 
@@ -66,7 +66,7 @@
 
 - <b>OpenvSwitch</b> hỗ trợ các tính năng sau: - VLAN tagging & 802.1q trunking - Standard Spanning Tree Protocol (802.1D) - LACP - Port Mirroring (SPAN/RSPAN) - Tunneling Protocols - QoS
 
-	![OpenFlow!](./images/3.jpg "OpenFlow")
+![OpenFlow!](./images/3.jpg "OpenFlow")
 
 <h3><b>1.7 Các thành phần chính của OpenvSwitch</b></h3>
 
@@ -91,7 +91,7 @@
 
 - <b>OpenDaylight Controller</b> viết bằng ngôn ngữ <b>Java</b>, có nghĩa là có thể sử dụng <b>OpenDaylight Controller</b> trên bất kì môi trường nào hỗ trợ <b>Java</b>. Tuy nhiên để đạt hiệu năng tốt nhất, <b>OpenDaylight</b> nên chạy trên môi trường Linux hỗ trợ <b>JVM tối thiểu 1.7</b>.
 
-	![OpenDaylight SDN Controller!](./images/4.png "OpenDaylight SDN Controller")
+![OpenDaylight SDN Controller!](./images/4.png "OpenDaylight SDN Controller")
 
 <h2><b>II. Xây dựng mạng SDN đơn giản</b></h2>
 
@@ -112,15 +112,15 @@ Thành phần của mạng SDN gồm:
 
 - Bước 4: Khởi động VMware Workstation
 
-	![ VMware Workstation 16 Pro!](./images/6.png " VMware Workstation 16 Pro")
+![ VMware Workstation 16 Pro!](./images/6.png " VMware Workstation 16 Pro")
 
 - Bước 5: Tiến hành cài đặt Mininet trên VMware Workstation
 
-	![ VMware Workstation 16 Pro!](./images/7.png " VMware Workstation 16 Pro")
+![ VMware Workstation 16 Pro!](./images/7.png " VMware Workstation 16 Pro")
 
 - Bước 6: Đăng nhập vào Mininet với user là mininet và password là mininet.
 
-	![ VMware Workstation 16 Pro!](./images/8.png " VMware Workstation 16 Pro")
+![ VMware Workstation 16 Pro!](./images/8.png " VMware Workstation 16 Pro")
 
 - Bước 7: Kiểm tra trạng thái SSH Server bằng lệnh: 
   
