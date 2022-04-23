@@ -104,17 +104,22 @@ Thành phần của mạng SDN gồm:
 <h3><b>2.1 Các bước thực hiện</b></h3>
 
 - Bước 1: Tải MobaXterm tại https://mobaxterm.mobatek.net
+
   
 - Bước 2: Cài đặt VMware Workstation 16 Pro tại https://www.vmware.com/products/workstation-pro/workstation-pro-evaluation.html
 
 
 - Bước 3: Cài đặt Mininet tại http://mininet.org/download hoặc từ Github tại https://github.com/mininet/mininet/releases
 
+
 - Bước 4: Khởi động VMware Workstation
+
 
 ![ VMware Workstation 16 Pro!](./images/6.png " VMware Workstation 16 Pro")
 
+
 - Bước 5: Tiến hành cài đặt Mininet trên VMware Workstation
+
 
 ![ VMware Workstation 16 Pro!](./images/7.png " VMware Workstation 16 Pro")
 
